@@ -1,0 +1,116 @@
+.root{
+	
+	-fx-background-color : #0B132B ;
+}
+
+.button{
+	
+	-fx-font-size: 110px;
+	-fx-font-family: Montserrat ;
+	-fx-font-weight: bold;
+	-fx-background-color: #54FFE5, linear-gradient(#BCEDF6 10%, #54FFE5 30%, #FF7442 100%) ;
+	-fx-border-radius: 200.0px ;
+	-fx-background-radius: 200.0px;
+	-fx-text-fill: #3A506B; 
+	-fx-effect: dropshadow( gaussian , rgba(60,60,60,1.0), 30, 0.5 , 2 , 2 );	
+	
+}
+
+
+
+
+
+#btnStart{
+	-fx-font-size: 85px;
+	-fx-font-family:  Montserrat;
+	-fx-font-weight: bold;
+	-fx-background-color: #54FFE5, linear-gradient(#52B7B5 10%, #54FFE5 50%, #52B7B5 100%) ;
+	-fx-border-radius: 15.0px ;
+	-fx-background-radius: 15.0px;
+	-fx-text-fill: #1C2541; 
+	-fx-effect: dropshadow( gaussian , rgba(60,60,60,1.0), 30, 0.5 , 2 , 2 );	
+}
+
+.optionButtons{
+	-fx-font-size: 45px;
+	-fx-font-family:  Merriweather;
+	-fx-font-weight: bold;
+	-fx-background-color: #54FFE5, linear-gradient(#52B7B5 10%, #54FFE5 50%, #52B7B5 100%) ;
+	-fx-border-radius: 15.0px ;
+	-fx-background-radius: 15.0px;
+	-fx-text-fill: #1C2541; 
+	-fx-effect: dropshadow( gaussian , rgba(60,60,60,1.0), 30, 0.5 , 2 , 2 );	
+}
+
+.label{
+	-fx-font-size: 50px;
+	-fx-font-family: Montserrat;
+	-fx-font-weight:normal;
+	-fx-alignment: center ;
+	-fx-text-fill: #6FFFE9; 
+	
+}
+
+#revealOptions{
+	-fx-font-family:  Merriweather;
+	-fx-border-color: #54FFE5;
+	-fx-border-radius: 15.0px;
+	-fx-background-color: transparent ;
+	-fx-border-style: solid ;
+	-fx-border-width: 2px;
+	-fx-font-size: 65px;
+	-fx-text-alignment: center ;
+	-fx-text-fill: #6FFFE9;
+	-fx-font-weight: bold;
+	
+}
+
+#questionLabel{
+	-fx-font-size: 35px;
+	
+	-fx-font-weight:normal;
+	-fx-alignment: center ;
+	-fx-text-fill: #6FFFE9; 
+}
+.lblQuestionPane{
+	
+	-fx-alignment: center ;
+	-fx-text-alignment: center ;
+	-fx-font-size: 55px;
+	-fx-font-family:  Montserrat;
+	-fx-font-weight: bold;
+	-fx-border-color: #54FFE5;
+	-fx-border-radius: 15.0px;
+	-fx-text-fill: #6FFFE9;
+	-fx-background-color: #1C2541;
+}
+
+#lblTimer
+{
+	-fx-text-fill: lightgreen;
+}
+
+#buttonPane{
+	-fx-background-color :#0B132B;
+}
+
+.choiceAlphabetsLabel{
+	-fx-font-size: 45px;
+	-fx-font-family:  Montserrat;
+	-fx-font-weight: bold;
+	-fx-alignment: center ;
+	-fx-text-fill: #6FFFE9; 
+}
+
+.movementButtons{
+	-fx-font-weight: bold;
+	-fx-background-radius: 50;
+	-fx-background-color: transparent ;
+	-fx-border-style: solid ;
+	-fx-border-color: white;
+	-fx-border-radius: 100;
+	-fx-border-width: 2px;
+	-fx-font-size: 50px;
+	-fx-text-alignment: center ;
+	-fx-text-fill: white;
+}

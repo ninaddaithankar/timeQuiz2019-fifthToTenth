@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="1920.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MCQController">
+   <children>
+      <AnchorPane fx:id="optionsPane" layoutX="45.0" layoutY="441.0" prefHeight="612.0" prefWidth="1832.0" visible="false">
+         <children>
+            <Button fx:id="btnOptionA" layoutX="103.0" layoutY="157.0" mnemonicParsing="false" onAction="#optionClicked" prefHeight="172.0" prefWidth="783.0" styleClass="optionButtons" text="Option A" />
+            <Button fx:id="btnOptionC" layoutX="105.0" layoutY="368.0" mnemonicParsing="false" onAction="#optionClicked" prefHeight="172.0" prefWidth="783.0" styleClass="optionButtons" text="Option C" />
+            <Button fx:id="btnOptionB" layoutX="983.0" layoutY="157.0" mnemonicParsing="false" onAction="#optionClicked" prefHeight="172.0" prefWidth="783.0" styleClass="optionButtons" text="Option B" />
+            <Button fx:id="btnOptionD" layoutX="983.0" layoutY="368.0" mnemonicParsing="false" onAction="#optionClicked" prefHeight="172.0" prefWidth="783.0" styleClass="optionButtons" text="Option D" />
+            <Label fx:id="lblTimer" alignment="CENTER" layoutX="878.0" layoutY="21.0" onMouseClicked="#timerStart" prefHeight="46.0" prefWidth="75.0" text="45" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT" size="70.0" />
+               </font>
+            </Label>
+             <Circle fill="#1f93ff00" layoutX="916.0" layoutY="62.0" radius="62.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+            <Label layoutX="37.0" layoutY="214.0" prefHeight="58.0" prefWidth="66.0" styleClass="choiceAlphabetsLabel" text="A." />
+            <Label layoutX="916.0" layoutY="214.0" prefHeight="58.0" prefWidth="66.0" styleClass="choiceAlphabetsLabel" text="B." />
+            <Label layoutX="37.0" layoutY="425.0" prefHeight="58.0" prefWidth="66.0" styleClass="choiceAlphabetsLabel" text="C." />
+            <Label layoutX="916.0" layoutY="425.0" prefHeight="58.0" prefWidth="66.0" styleClass="choiceAlphabetsLabel" text="D." />
+            <Button layoutX="70.0" layoutY="6.0" mnemonicParsing="false" onAction="#backButtonClicked" prefHeight="111.0" prefWidth="154.0" styleClass="movementButtons" text="&lt;" />
+            <Button layoutX="1611.0" layoutY="6.0" mnemonicParsing="false" onAction="#nextButtonClicked" prefHeight="111.0" prefWidth="154.0" styleClass="movementButtons" text="&gt;" />
+            <Circle fill="#3a506b" layoutX="806.0" layoutY="63.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#3a506b" layoutX="1025.0" layoutY="63.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+            <Separator layoutX="585.0" layoutY="61.0" prefWidth="200.0" />
+            <Separator layoutX="1046.0" layoutY="60.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="lblTextQuestionPane" layoutX="109.0" layoutY="55.0" onMouseClicked="#timerStart" prefHeight="354.0" prefWidth="1703.0" styleClass="lblQuestionPane" text="Text Question Appears Here" visible="false" />
+      <Button fx:id="btnStart" alignment="CENTER" layoutX="584.0" layoutY="456.0" mnemonicParsing="false" onAction="#startRound" text="START ROUND" visible="false" />
+      <Label fx:id="lblImageQuestionPane" layoutX="119.0" layoutY="55.0" onMouseClicked="#timerStart" prefHeight="354.0" prefWidth="880.0" styleClass="lblQuestionPane" text="Image Question Appears Here" visible="false" />
+      <ImageView fx:id="questionImage" fitHeight="390.0" fitWidth="738.0" layoutX="1066.0" layoutY="47.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <Button fx:id="revealOptions" layoutX="430.0" layoutY="588.0" mnemonicParsing="false" onAction="#revealOptionsClicked" prefHeight="315.0" prefWidth="1031.0" text="Reveal Options" visible="false" />
+   </children>
+</AnchorPane>

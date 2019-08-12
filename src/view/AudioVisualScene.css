@@ -1,0 +1,181 @@
+.root{
+	
+	-fx-background-color : #0B132B ;
+}
+
+.button{
+	
+	-fx-font-size: 45px;
+	-fx-font-family: Montserrat ;
+	-fx-font-weight: bold;
+	
+	-fx-border-radius: 200.0px ;
+	-fx-background-radius: 200.0px;
+	-fx-text-fill: #3A506B; 
+	-fx-effect: dropshadow( gaussian , rgba(60,60,60,1.0), 30, 0.5 , 2 , 2 );	
+	
+}
+
+.visualButtons
+{
+	
+}
+
+.gradient{
+	-fx-background-color: #54FFE5, linear-gradient(#BCEDF6 10%, #54FFE5 30%, #3C5233 100%) ;
+}
+
+.ahsiud{
+	
+	
+	-fx-background-color: transperant;
+	-fx-background-color: #54FFE5, linear-gradient(#BCEDF6 10%, #54FFE5 30%, #FC9E4F 100%) ;
+	-fx-background-color: #54FFE5, linear-gradient(#BCEDF6 10%, #54FFE5 30%, #545677 100%) ;
+}
+
+.clueLabel{
+	-fx-font-size: 35px;
+}
+.audioButtons
+{
+	
+}
+
+#lblTimer{
+	-fx-font-size: 105px;
+	-fx-font-family: "Bodoni MT";
+	-fx-text-fill: lightgreen ;
+	-fx-font-weight:normal;
+	-fx-alignment: center ;
+	-fx-text-alignment: center;
+	
+}
+
+
+
+#btnStart{
+	-fx-font-size: 85px;
+	-fx-font-family:  Montserrat;
+	-fx-font-weight: bold;
+	-fx-background-color: #54FFE5, linear-gradient(#52B7B5 10%, #54FFE5 50%, #52B7B5 100%) ;
+	-fx-border-radius: 15.0px ;
+	-fx-background-radius: 15.0px;
+	-fx-text-fill: #1C2541; 
+	-fx-effect: dropshadow( gaussian , rgba(60,60,60,1.0), 30, 0.5 , 2 , 2 );	
+}
+
+.optionButtons{
+	-fx-font-size: 45px;
+	-fx-font-family:  Merriweather;
+	-fx-font-weight: bold;
+	-fx-background-color: #54FFE5, linear-gradient(#52B7B5 10%, #54FFE5 50%, #52B7B5 100%) ;
+	-fx-border-radius: 15.0px ;
+	-fx-background-radius: 15.0px;
+	-fx-text-fill: #1C2541; 
+	-fx-effect: dropshadow( gaussian , rgba(60,60,60,1.0), 30, 0.5 , 2 , 2 );	
+}
+
+.label{
+	-fx-font-size: 50px;
+	-fx-font-family: Montserrat;
+	-fx-font-weight:normal;
+	-fx-alignment: center ;
+	-fx-text-alignment: center;
+	-fx-text-fill: #6FFFE9; 
+	
+}
+
+
+
+#questionLabel{
+	-fx-font-size: 35px;
+	
+	-fx-font-weight:normal;
+	-fx-alignment: center ;
+	-fx-text-fill: #6FFFE9; 
+	-fx-border-style: solid ;
+	-fx-border-color: white;
+	-fx-border-radius: 35px;
+}
+#lblQuestionPane{
+	
+	-fx-alignment: center ;
+	-fx-text-alignment: center ;
+	-fx-font-size: 55px;
+	-fx-font-family:  Montserrat;
+	-fx-font-weight: bold;
+	-fx-border-color: #54FFE5;
+	-fx-border-radius: 15.0px;
+	-fx-text-fill: #6FFFE9;
+	-fx-background-color: #1C2541;
+	-fx-background-radius: 35px;
+	-fx-border-style: solid ;
+	-fx-border-color: white;
+	-fx-border-radius: 35px;
+}
+
+#lblQuestionPaneAudio{
+	
+	-fx-alignment: center ;
+	-fx-text-alignment: center ;
+	-fx-font-size: 55px;
+	-fx-font-family:  Montserrat;
+	-fx-font-weight: bold;
+	-fx-border-color: #54FFE5;
+	-fx-border-radius: 15.0px;
+	-fx-text-fill: #6FFFE9;
+	-fx-background-color: #1C2541;
+	-fx-background-radius: 35px;
+	-fx-border-style: solid ;
+	-fx-border-color: white;
+	-fx-border-radius: 35px;
+}
+
+#lblTimer
+{
+	-fx-text-fill: lightgreen;
+	
+}
+
+#lblClue{
+	-fx-font-size: 40px;
+	-fx-border-style: solid ;
+	-fx-border-color: white;
+	-fx-border-radius: 35px;
+	
+}
+
+#lblAnswer{
+	-fx-font-size: 50px;
+	-fx-border-style: solid ;
+	-fx-border-color: white;
+	-fx-border-radius: 35px;
+}
+
+#lblClueAudio{
+	-fx-font-size: 40px;
+	-fx-border-style: solid ;
+	-fx-border-color: white;
+	-fx-border-radius: 35px;
+	
+}
+
+#lblAnswerAudio{
+	-fx-font-size: 50px;
+	-fx-border-style: solid ;
+	-fx-border-color: white;
+	-fx-border-radius: 35px;
+}
+
+.movementButtons{
+	-fx-font-weight: bold;
+	-fx-background-radius: 50;
+	-fx-background-color: transparent ;
+	-fx-border-style: solid ;
+	-fx-border-color: white;
+	-fx-border-radius: 100;
+	-fx-border-width: 2px;
+	-fx-font-size: 50px;
+	-fx-text-alignment: center ;
+	-fx-text-fill: white;
+}

@@ -1,0 +1,26 @@
+.root{
+	
+	-fx-background-color : #0B132B ;
+}
+
+.button{
+	-fx-font-size: 65px;
+	-fx-font-family:  Montserrat;
+	-fx-font-weight:bold;
+	-fx-background-color: #54FFE5, linear-gradient(#A2C7E5 10%, #54FFE5 50%, #90D7FF 100%) ;
+	-fx-border-radius: 15.0px ;
+	-fx-background-radius: 15.0px;
+	-fx-text-fill: #1C2541; 
+	-fx-effect: dropshadow( gaussian , rgba(60,60,60,1.0), 30, 0.5 , 2 , 2 );
+	
+}
+
+.label{
+	-fx-font-size: 65px;
+	-fx-font-family:  "Old English Text MT";
+	-fx-font-weight:normal;
+	-fx-alignment: center ;
+	-fx-text-fill: #6FFFE9; 
+	
+}
+

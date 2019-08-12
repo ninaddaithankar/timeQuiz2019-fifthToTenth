@@ -1,0 +1,84 @@
+.root{
+	
+	-fx-background-color : #0B132B ;
+}
+
+.button{
+	
+	-fx-font-size: 45px;
+	-fx-font-family: Montserrat ;
+	-fx-font-weight: bold;
+	-fx-background-color: #54FFE5, linear-gradient(#BCEDF6 10%, #54FFE5 30%, #3C5233 100%) ;
+	-fx-border-radius: 200.0px ;
+	-fx-background-radius: 200.0px;
+	-fx-text-fill: #3A506B; 
+	-fx-effect: dropshadow( gaussian , rgba(60,60,60,1.0), 30, 0.5 , 2 , 2 );	
+	
+}
+
+
+#lblTopic{
+	-fx-font-size: 55px ;
+	-fx-font-family: Merriweather;
+	-fx-font-weight: bold;
+	
+}
+
+.movementButtons{
+	-fx-font-weight: bold;
+	-fx-background-radius: 50;
+	-fx-background-color: transparent ;
+	-fx-border-style: solid ;
+	-fx-border-color: white;
+	-fx-border-radius: 100;
+	-fx-border-width: 2px;
+	-fx-font-size: 50px;
+	-fx-text-alignment: center ;
+	-fx-text-fill: white;
+}
+
+#lblTimer{
+	-fx-font-size: 105px;
+	-fx-font-family: "Bodoni MT";
+	-fx-text-fill: lightgreen ;
+	-fx-font-weight:normal;
+	-fx-alignment: center ;
+	
+}
+
+#lblQuestionPane{
+	-fx-padding:50.0px ;
+	-fx-alignment: center ;
+	-fx-text-alignment: center ;
+	-fx-font-size: 50px;
+	-fx-font-family:  Montserrat;
+	-fx-font-weight: bold;
+	-fx-border-color: white;
+	-fx-border-style: solid;
+	-fx-border-radius: 35.0px;
+	-fx-text-fill: #6FFFE9;
+	-fx-background-color: #1C2541;
+}
+
+.questionPanes{
+	-fx-border-style: solid ;
+	-fx-border-color: white;
+	-fx-border-radius: 35px;
+	
+}
+
+.label{
+	-fx-font-size: 55px;
+	-fx-font-family: Montserrat;
+	-fx-font-weight:normal;
+	-fx-alignment: center ;
+	-fx-text-fill: #6FFFE9; 
+	-fx-text-alignment: center;
+}
+
+#lblAnswer{
+	-fx-font-size: 50px;
+}
+#lblClue{
+	-fx-font-size: 50px;
+}
